@@ -10,8 +10,7 @@ from numpy import (dot, diag, prod, logical_not, ravel, transpose,
 from scipy._lib._util import _apply_over_batch, _deprecate_dtypes
 
 # Local imports
-from scipy.linalg import LinAlgError, LinAlgWarning
-from ._misc import norm
+from ._misc import LinAlgError, LinAlgWarning, norm
 from ._basic import solve, inv
 from ._decomp_svd import svd
 from ._decomp_schur import schur, rsf2csf
